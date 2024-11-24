@@ -133,9 +133,6 @@ img.sticky {
 
 .card{
   margin: auto;
-  max-width: 768px;
-  width: 80%;
-  box-shadow: 2px 2px 16px white;
 }
 
 .card-title{
@@ -196,9 +193,7 @@ img.sticky {
   font-family: 'Times New Roman', Times, serif;
   font-weight: 900;
 }
-.card{
-  border-radius: 20px;
-}
+
 img{
   border-radius: 20px;
 }
