@@ -227,3 +227,19 @@ img{
     padding: 10px;
   }
 }
+
+
+.card-about{
+  margin: auto;
+
+  width: 80%;
+  background-color: black;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card-img-top{
+  height: 350px;
+  max-width: 300px;
+  border-radius: 40px;
+}
