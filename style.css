@@ -166,13 +166,14 @@ h1:hover{
 .another-box{
     margin-top: 10px;
    
-    background: url('main\ bg.gif') no-repeat center center; background-size: cover; border-radius: 10px; overflow: hidden;
+    background: url('ses.gif') no-repeat center center; background-size: cover; border-radius: 10px; overflow: hidden;
    
     /* display: flex;
     justify-content: center;
     align-items: center; */
-  height: 100vh;
+    height: 100vh;
 }
+
 
 
 /* marquee  */
@@ -183,11 +184,9 @@ h1:hover{
     background: black;
 }
 
-.redd{
-  background: none !important;
-}
+
 .red{
-  color: red;
+  color: blue;
 }
 
 
@@ -229,15 +228,4 @@ h1:hover{
     font-size: 22px;
     color: black;
   }
-  
-  .btn-1:hover, a:hover {
-    opacity: 0.7;
-  }
-
-  .heading--::first-letter{
-    color: black;
-  }
-
-
-
   
