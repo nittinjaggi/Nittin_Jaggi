@@ -122,17 +122,17 @@ img.sticky {
 /* marquee  */
 
 
-.up-marq{
-    color: red;
-    background: black;
-}
+
 
 .navbar-toggler{
-  background-color: red;
+  background-color: white;
 }
 
 .card{
   margin: auto;
+
+  width: 80%;
+
 }
 
 .card-title{
@@ -144,12 +144,26 @@ img.sticky {
 }
 
 .contact h1{
-  color: red;
+  color: blue;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 2rem;
 }
 
+.card-contact a{
+  text-decoration: none;
+
+  padding-left: 5px;
+  font-size: 16px
+}
+.card-contact a:hover{
+  text-decoration: underline;
+  color: blue;
+  padding-left: 5px;
+}
+.card-contact a i{
+  text-decoration: none;
+}
 
 .contact-paragraph{
   text-decoration: underline;
@@ -157,21 +171,22 @@ img.sticky {
 
 .intrst{
   display: inline;
-  background-color: red;
- border: 1px solid red;
+  color: white;
+  background-color: blue;
+ border: 1px solid white;
  border-radius: 5px;
 }
 .titli{
-  color: red;
+  color: white;
 }
 .contact-paragraph{
-  color: red;
+  color: blue;
 }
 .card-contact{
   background-color: black;
 }
 .hding{
-  color: red;
+  color: blue;
 }
 .new-row{
   font-family: 'Times New Roman', Times, serif;
@@ -184,7 +199,7 @@ img{
 
 
 .parallax {
-  background: url('ses.gif') no-repeat center center fixed;
+  background: url('bg5.gif') no-repeat center center fixed;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -207,14 +222,23 @@ img{
   }
 }
 
-
 .card-about{
   margin: auto;
 
   width: 80%;
-  background-color: black;
-  color: red;
+  background: black;
+  color: white;
   font-family: 'Times New Roman', Times, serif;
+  opacity: 0.8;
+}
+.card-about:hover{
+  margin: auto;
+
+  width: 80%;
+  background: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  opacity: 1;
 }
 
 .card-img-top{
@@ -224,20 +248,30 @@ img{
 }
 
 .github{
-color: black;
+  color: white;
 }
 .github i{
-color: white;
-}
-.instagram{
-color: black;
-}
-.instagram i{
-color: pink;
+  color: white;
+  padding-right: 5px;
+  font-size: 17px;
 }
 .linkedin{
-color: black;
+  color: white;
 }
 .linkedin i{
-color: blue;
+  color: #0c75ba;
+  padding-right: 5px;
+  font-size: 17px;
+}
+.instagram{
+  color: white;
+}
+.instagram i{
+  color: palevioletred;
+  padding-right: 10px;
+  font-size: 17px;
+}
+
+.navbar-toggle{
+  background-color: snow !important;
 }
