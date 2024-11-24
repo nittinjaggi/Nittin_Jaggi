@@ -161,8 +161,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.navbar-toggler{
+  background-color: white;
+  border-radius: 20px;
+}
+
 .parallax {
-  background: url('ses.gif') no-repeat center center fixed;
+  background: url('bg2.gif') no-repeat center center fixed;
   background-size: cover;
   position: fixed;
   top: 0;
