@@ -166,7 +166,7 @@ h1:hover{
 .another-box{
     margin-top: 10px;
    
-    background: url('ses.gif') no-repeat center center; background-size: cover; border-radius: 10px; overflow: hidden;
+    background: url('bg1.gif') no-repeat center center; background-size: cover; border-radius: 10px; overflow: hidden;
    
     /* display: flex;
     justify-content: center;
@@ -180,7 +180,7 @@ h1:hover{
 
 
 .up-marq{
-    color: red;
+    color: aqua;
     background: black;
 }
 
