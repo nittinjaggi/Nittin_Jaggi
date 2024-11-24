@@ -1,0 +1,207 @@
+body{
+    background-color: black;
+  }
+  
+  
+  /* styling the navbar  */
+  
+  
+  
+  
+  .navbar a{
+      color: aliceblue !important;
+      font-weight: 900;
+  }
+  .navbar a:hover{
+      color: rgb(77, 158, 230) !important;
+  }
+  .navbar{
+    
+    background: none !important;
+  }
+  .navbar a:hover{
+    border-radius: 20px;
+    color: #3498db;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  
+  
+  .overlay {
+         
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+  }
+  
+  
+  .overlay-content {
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; 
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  /* creation of the inside box  */
+  
+
+  
+  
+
+  
+  
+  /* styling the main box  */
+  
+  
+  /* .another-box{
+      margin-top: 10px;
+     
+      background: url('main\ bg.gif') no-repeat center center; background-size: cover; border-radius: 10px; overflow: hidden;
+     
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+  
+   
+  
+  /* marquee  */
+
+    
+ .heading-project{
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+  }
+.major-project{
+  width: 80%;
+  max-width: 768px;
+  margin: auto;
+}
+
+
+
+
+.minor-project{
+  width: 80%;
+  max-width: 768px;
+  margin: auto;
+}
+
+
+.card a{
+  text-decoration: none;
+  display: inline-block; 
+  color: black;
+}
+
+.github{
+  padding-bottom: 10px;
+  margin: auto;
+  font-size: 20px;
+}
+.github i{
+padding-right: 5px;
+}
+.github:hover{
+  padding-bottom: 10px;
+  margin: auto;
+  color: blue;
+  text-decoration: underline;
+  
+}
+.navbar-toggler{
+  background-color: red;
+}
+.card{
+  text-align: left;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.parallax {
+  background: url('ses.gif') no-repeat center center fixed;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Optional: Makes content more readable */
+}
+
+.marquee {
+  color: red;
+}
+
+
+
+
+
+
+
+.card-title {
+  font-weight: bold;
+}
+
+
+@media (max-width: 992px) {
+  .row-cols-md-2 .col, .row-cols-md-3 .col {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading-project {
+    font-size: 1.5em;
+  }
+}
