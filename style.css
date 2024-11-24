@@ -171,6 +171,7 @@ h1:hover{
     /* display: flex;
     justify-content: center;
     align-items: center; */
+  height: 100vh;
 }
 
 
@@ -236,5 +237,7 @@ h1:hover{
   .heading--::first-letter{
     color: black;
   }
+
+
 
   
