@@ -229,7 +229,7 @@ img{
   background: black;
   color: white;
   font-family: 'Times New Roman', Times, serif;
-  opacity: 0.8;
+  opacity: 1;
 }
 .card-about:hover{
   margin: auto;
